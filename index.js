@@ -20,11 +20,11 @@ const johnLennonFacts = (facts) => {
   return arr;
 };
 
-const iLoveTheBeatles = (facts) => {
+const iLoveTheBeatles = (n) => {
   let arr = [];
   let i = 0;
   
-  while(i<facts.length){
+   while(i<facts.length){
     arr.push(facts[i] + '!!!');
     i++;
     
