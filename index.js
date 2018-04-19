@@ -23,11 +23,12 @@ const johnLennonFacts = (facts) => {
 const iLoveTheBeatles = (n) => {
   let arr = [];
   let i = 0;
-  const str = ''
-   do{
-    arr.push(facts[i] + '!!!');
+  const str = 'iLoveTheBeatles';
+  do{
+    arr.push(str);
+  }
+  while (n<15){
     i++;
-    
   }
   return arr;
 };
