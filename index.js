@@ -22,7 +22,7 @@ const johnLennonFacts = (facts) => {
 
 const iLoveTheBeatles = (n) => {
   let arr = [];
-  const str = 'iLoveTheBeatles';
+  const str = 'I love the Beatles!';
   do{
     arr.push(str);
     n++;
