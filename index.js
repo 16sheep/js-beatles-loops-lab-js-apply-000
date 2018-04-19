@@ -14,6 +14,7 @@ const johnLennonFacts = (facts) => {
   
   while(i<facts.length){
     arr.push(facts[i] + '!!!');
+    i++
     
   }
   return arr;
