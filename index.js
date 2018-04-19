@@ -26,10 +26,10 @@ const iLoveTheBeatles = (n) => {
   const str = 'iLoveTheBeatles';
   do{
     arr.push(str);
-  }
-  while (n<15){
     i++;
   }
+  while (n<15);
+  
   return arr;
 };
 
